@@ -31,7 +31,7 @@ def simple_tokenize(text: str):
 
 def preprocess_step2(
     input_csv: str = "reviews_by_course.csv",
-    output_csv: str = "reviews_filtered.csv",
+    output_csv: str = "step2_reviews_filtered.csv",
     dedup: bool = True
 ):
     input_csv = Path(input_csv)

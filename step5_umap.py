@@ -86,7 +86,7 @@ def step5_umap_reduction(
 
 if __name__ == "__main__":
     step5_umap_reduction(
-        embeddings_dir="step4_embeddings",
-        out_dir="step5_umap",
+        embeddings_dir="step4_mintoken_embeddings",
+        out_dir="step5_mintoken_umap",
         seed=42
     )

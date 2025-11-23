@@ -1,0 +1,5 @@
+# ignore numpy arrays
+*.npy
+
+# ignore virtual environment
+venv/

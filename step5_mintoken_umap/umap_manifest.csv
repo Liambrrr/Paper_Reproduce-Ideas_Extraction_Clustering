@@ -1,0 +1,17 @@
+model,dim_label,n_components,file
+all-mpnet-base-v2,orig,768,step5_mintoken_umap/reduced_all-mpnet-base-v2_orig.npy
+all-mpnet-base-v2,2d,2,step5_mintoken_umap/reduced_all-mpnet-base-v2_2d.npy
+all-mpnet-base-v2,3d,3,step5_mintoken_umap/reduced_all-mpnet-base-v2_3d.npy
+all-mpnet-base-v2,5d,5,step5_mintoken_umap/reduced_all-mpnet-base-v2_5d.npy
+all-mpnet-base-v2,10d,10,step5_mintoken_umap/reduced_all-mpnet-base-v2_10d.npy
+all-mpnet-base-v2,20d,20,step5_mintoken_umap/reduced_all-mpnet-base-v2_20d.npy
+all-mpnet-base-v2,50d,50,step5_mintoken_umap/reduced_all-mpnet-base-v2_50d.npy
+all-mpnet-base-v2,200d,200,step5_mintoken_umap/reduced_all-mpnet-base-v2_200d.npy
+all-MiniLM-L6-v2,orig,384,step5_mintoken_umap/reduced_all-MiniLM-L6-v2_orig.npy
+all-MiniLM-L6-v2,2d,2,step5_mintoken_umap/reduced_all-MiniLM-L6-v2_2d.npy
+all-MiniLM-L6-v2,3d,3,step5_mintoken_umap/reduced_all-MiniLM-L6-v2_3d.npy
+all-MiniLM-L6-v2,5d,5,step5_mintoken_umap/reduced_all-MiniLM-L6-v2_5d.npy
+all-MiniLM-L6-v2,10d,10,step5_mintoken_umap/reduced_all-MiniLM-L6-v2_10d.npy
+all-MiniLM-L6-v2,20d,20,step5_mintoken_umap/reduced_all-MiniLM-L6-v2_20d.npy
+all-MiniLM-L6-v2,50d,50,step5_mintoken_umap/reduced_all-MiniLM-L6-v2_50d.npy
+all-MiniLM-L6-v2,200d,200,step5_mintoken_umap/reduced_all-MiniLM-L6-v2_200d.npy

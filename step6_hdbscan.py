@@ -107,8 +107,8 @@ def step6_hdbscan(
 
 if __name__ == "__main__":
     step6_hdbscan(
-        umap_dir="step5_umap",
-        meta_csv="step4_embeddings/meta_all-mpnet-base-v2.csv",
-        out_dir="step6_hdbscan",
+        umap_dir="step5_mintoken_umap",
+        meta_csv="step4_mintoken_embeddings/meta_all-mpnet-base-v2.csv",
+        out_dir="step6_mintoken_hdbscan",
         top_k=10
     )

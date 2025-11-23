@@ -63,8 +63,8 @@ def embed_step4(
 
 if __name__ == "__main__":
     embed_step4(
-        input_units_csv="step3_semantic_units.csv",
-        out_dir="step4_embeddings",
+        input_units_csv="step3_mintoken_semantic_units.csv",
+        out_dir="step4_mintoken_embeddings",
         batch_size=64,
         normalize_embeddings=False
     )
