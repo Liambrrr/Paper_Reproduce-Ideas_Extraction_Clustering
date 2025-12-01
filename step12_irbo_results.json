@@ -1,0 +1,9 @@
+{
+  "baseline_5d_top5": 0.966110768552304,
+  "baseline_5d_top10": 0.9698817271883531,
+  "baseline_10d_top5": 0.966110768552304,
+  "baseline_10d_top10": 0.9765615983258327,
+  "baseline5_avg": 0.966110768552304,
+  "baseline10_avg": 0.9732216627570929,
+  "topicgpt_irbo": 1.0
+}
