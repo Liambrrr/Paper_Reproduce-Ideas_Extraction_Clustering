@@ -1,0 +1,1362 @@
+[
+  {
+    "id": "1",
+    "name": "Artificial Intelligence (Count",
+    "description": "332): Mentions the development and use of intelligent machines that can perform tasks that typically require human intelligence."
+  },
+  {
+    "id": "1",
+    "name": "Education (Count",
+    "description": "8685): Mentions concepts related to learning, teaching, or academic studies."
+  },
+  {
+    "id": "1",
+    "name": "Technology (Count",
+    "description": "74): Mentions practices and tools related to software development and coding."
+  },
+  {
+    "id": "1",
+    "name": "Data Science (Count",
+    "description": "359): Mentions the field of study that extracts insights and knowledge from data."
+  },
+  {
+    "id": "1",
+    "name": "Statistics (Count",
+    "description": "104): Mentions the analysis or classification of data into numerical or categorical ranges, such as quintiles."
+  },
+  {
+    "id": "1",
+    "name": "Management (Count",
+    "description": "66): Mentions planning, organizing, and supervising activities or systems."
+  },
+  {
+    "id": "1",
+    "name": "Communication (Count",
+    "description": "207): Mentions the exchange or sharing of information between individuals or groups."
+  },
+  {
+    "id": "1",
+    "name": "Marketing (Count",
+    "description": "8): Mentions activities related to promoting and selling products or services."
+  },
+  {
+    "id": "1",
+    "name": "Software Engineering (Count",
+    "description": "43): Mentions the application of engineering principles to the design, development, and maintenance of software."
+  },
+  {
+    "id": "1",
+    "name": "Business (Count",
+    "description": "27): Relates to commercial or mercantile activities and practices."
+  },
+  {
+    "id": "1",
+    "name": "Trade (Count",
+    "description": "2): Mentions the exchange of capital, goods, and services."
+  },
+  {
+    "id": "1",
+    "name": "Relationships (Count",
+    "description": "14): Mentions interactions or connections between individuals."
+  },
+  {
+    "id": "1",
+    "name": "Sustainability (Count",
+    "description": "2): Mentions the capacity to maintain a process or system over time without depleting natural resources."
+  },
+  {
+    "id": "1",
+    "name": "Finance (Count",
+    "description": "12): Mentions transactions or management of money and funds."
+  },
+  {
+    "id": "1",
+    "name": "Biology (Count",
+    "description": "4): The study of living organisms and their interactions with the environment."
+  },
+  {
+    "id": "1",
+    "name": "Information (Count",
+    "description": "56): Mentions the value or relevance of information."
+  },
+  {
+    "id": "1",
+    "name": "Time Management (Count",
+    "description": "162): Mentions the efficient use of time to maximize productivity."
+  },
+  {
+    "id": "1",
+    "name": "Programming (Count",
+    "description": "667): Mentions the process of writing code for software development."
+  },
+  {
+    "id": "1",
+    "name": "Machine Learning (Count",
+    "description": "2795): Mentions a subset of artificial intelligence that involves training algorithms to make predictions or decisions based on data."
+  },
+  {
+    "id": "1",
+    "name": "Medicine (Count",
+    "description": "8): Relates to the science or practice of the diagnosis, treatment, and prevention of disease."
+  },
+  {
+    "id": "1",
+    "name": "Project Management (Count",
+    "description": "14): Mentions the planning, execution, and monitoring of specific projects or goals."
+  },
+  {
+    "id": "1",
+    "name": "Motivation (Count",
+    "description": "148): Mentions sources or effects of inspiration."
+  },
+  {
+    "id": "1",
+    "name": "Research (Count",
+    "description": "43): Involves the systematic investigation and study of a subject or topic."
+  },
+  {
+    "id": "1",
+    "name": "Engineering (Count",
+    "description": "37): Mentions the application of scientific and mathematical knowledge to solve practical problems."
+  },
+  {
+    "id": "1",
+    "name": "Philosophy (Count",
+    "description": "35): Mentions frameworks for understanding the world."
+  },
+  {
+    "id": "1",
+    "name": "Bioinformatics (Count",
+    "description": "4): The application of computational tools and methods to analyze and interpret biological data."
+  },
+  {
+    "id": "1",
+    "name": "Biostatistics (Count",
+    "description": "1): The application of statistical principles and methods to analyze data in biology, medicine, and public health."
+  },
+  {
+    "id": "1",
+    "name": "Problem Solving (Count",
+    "description": "66): Involves the process of finding creative solutions to unfamiliar or complex problems."
+  },
+  {
+    "id": "1",
+    "name": "Mathematics (Count",
+    "description": "542): Deals with the study of numbers, quantities, and shapes."
+  },
+  {
+    "id": "1",
+    "name": "Probability (Count",
+    "description": "3): Not present in the original hierarchy."
+  },
+  {
+    "id": "1",
+    "name": "Investment (Count",
+    "description": "11): Mentions spending or allocating resources, such as time or money, with the expectation of earning a profit or achieving a goal."
+  },
+  {
+    "id": "1",
+    "name": "Computer Science (Count",
+    "description": "74): Mentions the study of computer systems and algorithms."
+  },
+  {
+    "id": "1",
+    "name": "Entertainment (Count",
+    "description": "147): Mentions an activity or experience that provides enjoyment or amusement."
+  },
+  {
+    "id": "1",
+    "name": "Decision Making (Count",
+    "description": "16): Mentions the process of making choices or judgments."
+  },
+  {
+    "id": "1",
+    "name": "Gamification (Count",
+    "description": "2): Refers to the use of game design elements in non-game contexts, such as education or marketing."
+  },
+  {
+    "id": "1",
+    "name": "Real Estate (Count",
+    "description": "4): Mentions property, land, and housing-related activities."
+  },
+  {
+    "id": "1",
+    "name": "Employment (Count",
+    "description": "57): Mentions work, jobs, or career development."
+  },
+  {
+    "id": "1",
+    "name": "Genomics (Count",
+    "description": "2): The study of genomes, the complete set of DNA (including all of its genes) in an organism."
+  },
+  {
+    "id": "1",
+    "name": "Economics (Count",
+    "description": "11): Mentions the study of economic systems, theories, and models."
+  },
+  {
+    "id": "1",
+    "name": "Language (Count",
+    "description": "233): Mentions the learning or usage of a language, in this case, Spanish, and a programming language, R."
+  },
+  {
+    "id": "1",
+    "name": "Transportation (Count",
+    "description": "2): Mentions the movement of people or goods from one place to another."
+  },
+  {
+    "id": "1",
+    "name": "Algorithms (Count",
+    "description": "282): Mentions procedures for solving computational problems."
+  },
+  {
+    "id": "1",
+    "name": "Music (Count",
+    "description": "35): Mentions musical concepts, terminology, or related activities."
+  },
+  {
+    "id": "1",
+    "name": "Internet (Count",
+    "description": "15): Mentions the global network of interconnected computers and servers."
+  },
+  {
+    "id": "1",
+    "name": "Career Development (Count",
+    "description": "68): Mentions the process of improving and advancing one's professional life and opportunities."
+  },
+  {
+    "id": "1",
+    "name": "Psychology (Count",
+    "description": "20): Mentions a concept related to personality and mental state."
+  },
+  {
+    "id": "1",
+    "name": "Science (Count",
+    "description": "14): Mentions the study of the natural world through systematic observation and experimentation."
+  },
+  {
+    "id": "1",
+    "name": "Data Engineering (Count",
+    "description": "3): Deals with the design, construction, and maintenance of large-scale data systems."
+  },
+  {
+    "id": "1",
+    "name": "Reputation (Count",
+    "description": "2): Refers to the social evaluation or standing of an individual or entity."
+  },
+  {
+    "id": "1",
+    "name": "Health (Count",
+    "description": "8): Relates to physical and mental well-being."
+  },
+  {
+    "id": "1",
+    "name": "Happiness (Count",
+    "description": "18): Refers to a state of emotional well-being and positive feelings."
+  },
+  {
+    "id": "1",
+    "name": "Art (Count",
+    "description": "15): Mentions art, a form of creative expression."
+  },
+  {
+    "id": "1",
+    "name": "Recommendation (Count",
+    "description": "150): Expresses a suggestion or endorsement for something."
+  },
+  {
+    "id": "1",
+    "name": "Design (Count",
+    "description": "23): Mentions the creation and planning of visual elements and aesthetics."
+  },
+  {
+    "id": "1",
+    "name": "Computing (Count",
+    "description": "20): Involves the use, study, and development of computer systems and algorithms."
+  },
+  {
+    "id": "1",
+    "name": "Appreciation (Count",
+    "description": "343): Expresses gratitude or thanks towards someone or something."
+  },
+  {
+    "id": "1",
+    "name": "Personal Development (Count",
+    "description": "84): Refers to the process of improving oneself and one's abilities."
+  },
+  {
+    "id": "1",
+    "name": "Teamwork (Count",
+    "description": "9): Refers to the collaborative effort of individuals working together."
+  },
+  {
+    "id": "1",
+    "name": "Audio (Count",
+    "description": "27): Relates to the production, transmission, or reception of sound."
+  },
+  {
+    "id": "1",
+    "name": "Data Analysis (Count",
+    "description": "27): Mentions the process of examining data to draw conclusions."
+  },
+  {
+    "id": "1",
+    "name": "Robotics (Count",
+    "description": "4): Refers to the design, construction, and use of robots in various fields."
+  },
+  {
+    "id": "1",
+    "name": "Relevance (Count",
+    "description": "1): Refers to the importance or pertinence of information."
+  },
+  {
+    "id": "1",
+    "name": "Theory (Count",
+    "description": "49): Mentions concepts or frameworks that are abstract or hypothetical."
+  },
+  {
+    "id": "1",
+    "name": "Practice (Count",
+    "description": "23): Mentions actual application or implementation of skills or knowledge."
+  },
+  {
+    "id": "1",
+    "name": "Politics (Count",
+    "description": "3): Mentions activities associated with governance, decision-making, and power struggles."
+  },
+  {
+    "id": "1",
+    "name": "Sociology (Count",
+    "description": "3): Mentions the study of human social behavior, relationships, and institutions within societies."
+  },
+  {
+    "id": "1",
+    "name": "Neuroscience (Count",
+    "description": "4): Mentions the study of the structure and function of the nervous system."
+  },
+  {
+    "id": "1",
+    "name": "Attention (Count",
+    "description": "5): Refers to the ability or process of selectively concentrating on one aspect of the environment while ignoring other stimuli."
+  },
+  {
+    "id": "1",
+    "name": "Cloud Computing (Count",
+    "description": "1): Mentions platforms and services provided over the internet, such as AWS and Azure."
+  },
+  {
+    "id": "1",
+    "name": "Experience (Count",
+    "description": "18): Refers to knowledge or skill gained from past events or activities."
+  },
+  {
+    "id": "1",
+    "name": "Advice (Count",
+    "description": "17): Mentions guidance or recommendations provided to others."
+  },
+  {
+    "id": "1",
+    "name": "Deep Learning (Count",
+    "description": "18): Mentions a subset of machine learning techniques."
+  },
+  {
+    "id": "1",
+    "name": "Productivity (Count",
+    "description": "5): Mentions efficiency and speed in completing tasks."
+  },
+  {
+    "id": "1",
+    "name": "Sports (Count",
+    "description": "5): Mentions activities involving physical exertion and competition."
+  },
+  {
+    "id": "1",
+    "name": "Organization (Count",
+    "description": "13): Refers to the systematic arrangement and management of resources, structures, or systems."
+  },
+  {
+    "id": "1",
+    "name": "Innovation (Count",
+    "description": "9): Mentions the process of creating new or improved ideas, products, or processes."
+  },
+  {
+    "id": "1",
+    "name": "Navigation (Count",
+    "description": "4): Mentions the use of a compass for directional purposes."
+  },
+  {
+    "id": "1",
+    "name": "Review (Count",
+    "description": "15): Mentions an evaluation or assessment of something, such as a product, service, or performance."
+  },
+  {
+    "id": "1",
+    "name": "Petroleum Engineering (Count",
+    "description": "1): Mentions the field of petroleum engineering as a profession or career path."
+  },
+  {
+    "id": "1",
+    "name": "Opinion (Count",
+    "description": "21): Expresses a view or attitude on a particular subject."
+  },
+  {
+    "id": "1",
+    "name": "Exercise (Count",
+    "description": "43): Refers to physical or mental activities for recreation, fitness, or improvement."
+  },
+  {
+    "id": "1",
+    "name": "Networking (Count",
+    "description": "1): Refers to the act of building and maintaining relationships within a profession or industry."
+  },
+  {
+    "id": "1",
+    "name": "Literature (Count",
+    "description": "5): Mentions written works, literary analysis, or literary studies."
+  },
+  {
+    "id": "1",
+    "name": "Fashion (Count",
+    "description": "4): Mentions items related to personal attire and aesthetics, such as shoes."
+  },
+  {
+    "id": "1",
+    "name": "Religion (Count",
+    "description": "1): Refers to baptism, a spiritual or religious practice."
+  },
+  {
+    "id": "1",
+    "name": "Customer Service (Count",
+    "description": "9): Mentions understanding customer needs and data."
+  },
+  {
+    "id": "1",
+    "name": "System Design (Count",
+    "description": "3): Mentions the process of defining the architecture, components, and interfaces of a system."
+  },
+  {
+    "id": "1",
+    "name": "Diagnosis (Count",
+    "description": "1): Mentions the process of identifying and determining the nature of a problem or condition."
+  },
+  {
+    "id": "1",
+    "name": "Debugging (Count",
+    "description": "23): Refers to the process of identifying and fixing errors or issues in a system, code, or process."
+  },
+  {
+    "id": "1",
+    "name": "Wealth (Count",
+    "description": "3): Mentions the state of being rich or having a great deal of money, resources, or assets."
+  },
+  {
+    "id": "1",
+    "name": "Love (Count",
+    "description": "14): Mentions strong emotions of affection or attachment."
+  },
+  {
+    "id": "1",
+    "name": "Physics (Count",
+    "description": "13): Mentions the study of the natural world around us, focusing on matter, energy, and the fundamental laws that govern the behavior of the universe."
+  },
+  {
+    "id": "1",
+    "name": "Emotion (Count",
+    "description": "68): Expresses a strong feeling or sentiment."
+  },
+  {
+    "id": "1",
+    "name": "Software (Count",
+    "description": "23): Mentions software or programs used for specific tasks or applications."
+  },
+  {
+    "id": "1",
+    "name": "Database Design (Count",
+    "description": "1): Mentions the process of creating and organizing database structures."
+  },
+  {
+    "id": "1",
+    "name": "Data Collection (Count",
+    "description": "1): Refers to the process of gathering and compiling data for various purposes, including research, analysis, and decision-making."
+  },
+  {
+    "id": "1",
+    "name": "Understanding (Count",
+    "description": "6): Mentions the process of comprehension or interpretation of information."
+  },
+  {
+    "id": "1",
+    "name": "Photography (Count",
+    "description": "3): Mentions techniques related to capturing images or videos."
+  },
+  {
+    "id": "1",
+    "name": "Knowledge (Count",
+    "description": "28): Refers to the acquisition, understanding, and application of information and concepts."
+  },
+  {
+    "id": "1",
+    "name": "Criticism (Count",
+    "description": "5): Refers to the act of expressing disapproval or negative opinions about something."
+  },
+  {
+    "id": "1",
+    "name": "Industrial Practices (Count",
+    "description": "2): Concerns the application of knowledge and skills in a practical, industry-based setting."
+  },
+  {
+    "id": "1",
+    "name": "Development (Count",
+    "description": "8): Refers to the process of growth, improvement, or expansion in various contexts."
+  },
+  {
+    "id": "1",
+    "name": "Knowledge Discovery (Count",
+    "description": "1): Mentions the process of identifying useful patterns or insights from data."
+  },
+  {
+    "id": "1",
+    "name": "Bias (Count",
+    "description": "3): Mentions unfair or discriminatory perspectives."
+  },
+  {
+    "id": "1",
+    "name": "Linear Algebra (Count",
+    "description": "47): Deals with the study of linear equations, vector spaces, and linear transformations."
+  },
+  {
+    "id": "1",
+    "name": "Biomedical Engineering (Count",
+    "description": "1): Mentions the application of engineering principles in medical and biological fields."
+  },
+  {
+    "id": "1",
+    "name": "Analysis (Count",
+    "description": "9): Mentions the process of breaking down complex information into smaller parts to understand and interpret it."
+  },
+  {
+    "id": "1",
+    "name": "Implementation (Count",
+    "description": "9): Refers to the process of putting a plan or idea into action."
+  },
+  {
+    "id": "1",
+    "name": "Data Structures (Count",
+    "description": "1): Mentions ways to organize and store data in a computer."
+  },
+  {
+    "id": "1",
+    "name": "Scripting (Count",
+    "description": "2): Mentions writing code in scripts."
+  },
+  {
+    "id": "1",
+    "name": "Mentorship (Count",
+    "description": "41): Mentions guidance or support provided by experienced individuals."
+  },
+  {
+    "id": "1",
+    "name": "Food (Count",
+    "description": "2): Mentions the production, processing, or manufacturing of food products."
+  },
+  {
+    "id": "1",
+    "name": "Oceanography (Count",
+    "description": "1): Studies the ocean and its phenomena."
+  },
+  {
+    "id": "1",
+    "name": "Complexity (Count",
+    "description": "12): Mentions the level of intricacy or difficulty in operations."
+  },
+  {
+    "id": "1",
+    "name": "Logic (Count",
+    "description": "8): Refers to the principles of reasoning and sound argumentation."
+  },
+  {
+    "id": "1",
+    "name": "Practicality (Count",
+    "description": "21): Refers to the quality of being practical or useful."
+  },
+  {
+    "id": "1",
+    "name": "Opportunity (Count",
+    "description": "6): Mentions the possibility of new experiences or situations."
+  },
+  {
+    "id": "1",
+    "name": "Memory (Count",
+    "description": "2): Mentions the concept of remembering or recalling past events or experiences."
+  },
+  {
+    "id": "1",
+    "name": "Idea (Count",
+    "description": "5): Refers to a thought, concept, or notion."
+  },
+  {
+    "id": "1",
+    "name": "Family (Count",
+    "description": "3): Mentions relationships or interactions with relatives."
+  },
+  {
+    "id": "1",
+    "name": "Modules (Count",
+    "description": "1): Refers to the organization or structure of components or units within a system or entity."
+  },
+  {
+    "id": "1",
+    "name": "Presentation (Count",
+    "description": "14): Refers to the way information is delivered or communicated, often in a formal or structured setting."
+  },
+  {
+    "id": "1",
+    "name": "Tools (Count",
+    "description": "5): Refers to devices, software, or equipment used to perform specific tasks or functions."
+  },
+  {
+    "id": "1",
+    "name": "Writing (Count",
+    "description": "11): Mentions the act of creating written content."
+  },
+  {
+    "id": "1",
+    "name": "Expectation (Count",
+    "description": "5): Mentions a general feeling or attitude of expecting something to happen."
+  },
+  {
+    "id": "1",
+    "name": "Interdisciplinary Studies (Count",
+    "description": "4): Mentions the combination of multiple academic disciplines, such as computer vision, NLP, and data science."
+  },
+  {
+    "id": "1",
+    "name": "Comparison (Count",
+    "description": "2): Involves analyzing or evaluating the similarities and differences between two or more entities."
+  },
+  {
+    "id": "1",
+    "name": "Habit (Count",
+    "description": "2): Refers to the process of becoming accustomed to something through repetition or regular practice."
+  },
+  {
+    "id": "1",
+    "name": "Video (Count",
+    "description": "31): Involves the creation, transmission, or display of visual content."
+  },
+  {
+    "id": "1",
+    "name": "Trend (Count",
+    "description": "1): Mentions a significant change or evolution in a field over time."
+  },
+  {
+    "id": "1",
+    "name": "Progress (Count",
+    "description": "3): Mentions a significant evolution or gain in popularity over time."
+  },
+  {
+    "id": "1",
+    "name": "System Development (Count",
+    "description": "2): Mentions the process of creating and implementing systems."
+  },
+  {
+    "id": "1",
+    "name": "Biography (Count",
+    "description": "1): Relates to written accounts or descriptions of a person's life."
+  },
+  {
+    "id": "1",
+    "name": "Testing (Count",
+    "description": "2): Mentions the process of evaluating or verifying the quality of a product or system."
+  },
+  {
+    "id": "1",
+    "name": "Editing (Count",
+    "description": "6): Mentions the process of revising and correcting content."
+  },
+  {
+    "id": "1",
+    "name": "Accessibility (Count",
+    "description": "5): Refers to the design and implementation of products, services, and environments that are usable by people of all abilities."
+  },
+  {
+    "id": "1",
+    "name": "Computer Vision (Count",
+    "description": "6): Mentions image processing and recognition systems."
+  },
+  {
+    "id": "1",
+    "name": "Signal Processing (Count",
+    "description": "4): Mentions signal processing systems."
+  },
+  {
+    "id": "1",
+    "name": "Image Processing (Count",
+    "description": "3): Mentions the adjustment and analysis of images, including OCR (Optical Character Recognition) and photo adjustment processes."
+  },
+  {
+    "id": "1",
+    "name": "Intuition (Count",
+    "description": "26): Mentions instinctive or subconscious patterns of thought."
+  },
+  {
+    "id": "1",
+    "name": "Perspective (Count",
+    "description": "1): Refers to a particular attitude toward or way of regarding something."
+  },
+  {
+    "id": "1",
+    "name": "Materials Science (Count",
+    "description": "7): Deals with the study of the properties and applications of various materials."
+  },
+  {
+    "id": "1",
+    "name": "Satisfaction (Count",
+    "description": "8): Mentions a feeling of contentment or pleasure."
+  },
+  {
+    "id": "1",
+    "name": "Geography (Count",
+    "description": "3): Mentions a location or region."
+  },
+  {
+    "id": "1",
+    "name": "Learning (Count",
+    "description": "35): Mentions the process of acquiring knowledge or skills."
+  },
+  {
+    "id": "1",
+    "name": "Error Correction (Count",
+    "description": "7): Mentions the process of identifying and fixing mistakes."
+  },
+  {
+    "id": "1",
+    "name": "Data (Count",
+    "description": "8): Mentions the collection, storage, or retrieval of information."
+  },
+  {
+    "id": "1",
+    "name": "Chance (Count",
+    "description": "1): Mentions the occurrence of events in the absence of any obvious intention or cause."
+  },
+  {
+    "id": "1",
+    "name": "Automation (Count",
+    "description": "2): Mentions the use of technology to perform tasks without human intervention."
+  },
+  {
+    "id": "1",
+    "name": "Balance (Count",
+    "description": "8): Refers to the state of equilibrium or stability in various aspects of life, such as emotions, work, or relationships."
+  },
+  {
+    "id": "1",
+    "name": "Documentation (Count",
+    "description": "2): Mentions the process of creating, managing, and maintaining documents."
+  },
+  {
+    "id": "1",
+    "name": "Collaboration (Count",
+    "description": "2): Mentions teamwork, partnership, and cooperative efforts."
+  },
+  {
+    "id": "1",
+    "name": "Transcription (Count",
+    "description": "2): Mentions the process of creating written versions of audio or video recordings."
+  },
+  {
+    "id": "1",
+    "name": "Success (Count",
+    "description": "3): Mentions the achievement of goals or favorable outcomes."
+  },
+  {
+    "id": "1",
+    "name": "Support (Count",
+    "description": "2): Mentions providing assistance or resources to help others."
+  },
+  {
+    "id": "1",
+    "name": "Chemical Engineering (Count",
+    "description": "1): Deals with the application of engineering principles to the development, design, and operation of chemical processes and systems."
+  },
+  {
+    "id": "1",
+    "name": "Methodology (Count",
+    "description": "6): Refers to the systematic and structured approach to accomplishing a ta"
+  },
+  {
+    "id": "1",
+    "name": "Optimization (Count",
+    "description": "6): Mentions the act of making something as effective or efficient as possible."
+  },
+  {
+    "id": "1",
+    "name": "Linguistics (Count",
+    "description": "2): The study of language structure, properties, and usage."
+  },
+  {
+    "id": "1",
+    "name": "Game Design (Count",
+    "description": "1): Mentions the creation and development of games, including mechanics, visuals, and user experience."
+  },
+  {
+    "id": "1",
+    "name": "Data Mining (Count",
+    "description": "4): Mentions the process of discovering patterns and relationships in large datasets."
+  },
+  {
+    "id": "1",
+    "name": "Inference (Count",
+    "description": "1): Mentions the process of drawing conclusions or making educated guesses."
+  },
+  {
+    "id": "1",
+    "name": "Microbiology (Count",
+    "description": "1): The study of microorganisms, including their interactions with the environment and living organisms."
+  },
+  {
+    "id": "1",
+    "name": "Content (Count",
+    "description": "13): Refers to the substance or material contained in a medium, such as text, images, or audio."
+  },
+  {
+    "id": "1",
+    "name": "Competition (Count",
+    "description": "2): Refers to the act of competing or rivalry between individuals or entities."
+  },
+  {
+    "id": "1",
+    "name": "Aesthetics (Count",
+    "description": "7): Relates to the appreciation and perception of beauty."
+  },
+  {
+    "id": "1",
+    "name": "Abstraction (Count",
+    "description": "2): Refers to the practice of representing complex systems in a simplified way, hiding irrelevant details."
+  },
+  {
+    "id": "1",
+    "name": "Time (Count",
+    "description": "14): Mentions a period or duration."
+  },
+  {
+    "id": "1",
+    "name": "Environment (Count",
+    "description": "2): Refers to the external surroundings and conditions in which something exists or occurs."
+  },
+  {
+    "id": "1",
+    "name": "Improvement (Count",
+    "description": "4): Mentions the act of making something better."
+  },
+  {
+    "id": "1",
+    "name": "Coding (Count",
+    "description": "6): Mentions the act of writing code or programming."
+  },
+  {
+    "id": "1",
+    "name": "Simplicity (Count",
+    "description": "11): Refers to the quality or state of being simple, straightforward, and easy to understand."
+  },
+  {
+    "id": "1",
+    "name": "Applications (Count",
+    "description": "11): Refers to the practical uses or implementations of concepts, theories, or technologies in real-world settings."
+  },
+  {
+    "id": "1",
+    "name": "Travel (Count",
+    "description": "6): Mentions experiences or activities related to visiting new places."
+  },
+  {
+    "id": "1",
+    "name": "Interest (Count",
+    "description": "3): Mentions something that sparks attention or curiosity."
+  },
+  {
+    "id": "1",
+    "name": "Uncertainty (Count",
+    "description": "3): Mentions expressions of doubt or ambiguity about future events or possibilities."
+  },
+  {
+    "id": "1",
+    "name": "Exploration (Count",
+    "description": "1): Involves the act of examining or investigating something to gain a deeper understanding or knowledge."
+  },
+  {
+    "id": "1",
+    "name": "Translation (Count",
+    "description": "2): Mentions the process of converting text or speech from one language to another."
+  },
+  {
+    "id": "1",
+    "name": "Completion (Count",
+    "description": "2): Mentions the state of being finished or finalized."
+  },
+  {
+    "id": "1",
+    "name": "Electrical Engineering (Count",
+    "description": "2): Deals with the study and application of electricity, electronics, and electromagnetism."
+  },
+  {
+    "id": "1",
+    "name": "Ethics (Count",
+    "description": "2): Mentions principles and values guiding behavior, including honor codes."
+  },
+  {
+    "id": "1",
+    "name": "Performance Improvement (Count",
+    "description": "2): Mentions methods or techniques to enhance efficiency or effectiveness."
+  },
+  {
+    "id": "1",
+    "name": "Etiquette (Count",
+    "description": "10): Refers to the rules and expectations that govern behavior in social and professional settings, including standards for formality and propriety."
+  },
+  {
+    "id": "1",
+    "name": "Resources (Count",
+    "description": "1): Mentions the availability and utilization of materials and supplies."
+  },
+  {
+    "id": "1",
+    "name": "Value (Count",
+    "description": "4): Mentions the concept of something being worthwhile or having a certain importance."
+  },
+  {
+    "id": "1",
+    "name": "Feedback (Count",
+    "description": "7): Refers to the process of giving or receiving information about the performance or quality of something."
+  },
+  {
+    "id": "1",
+    "name": "Community (Count",
+    "description": "10): Refers to a social unit with commonalities such as norms, values, identity, or location."
+  },
+  {
+    "id": "1",
+    "name": "Logistics (Count",
+    "description": "3): Mentions the planning, coordination, and execution of the movement and storage of goods, resources, and products."
+  },
+  {
+    "id": "1",
+    "name": "Engagement (Count",
+    "description": "1): This topic is not explicitly present in the hierarchy. It can be added to reflect the idea of maintaining interest in an activity or subject."
+  },
+  {
+    "id": "1",
+    "name": "Quality (Count",
+    "description": "14): Refers to the standard or level of something, especially a product or service, as measured against similar things."
+  },
+  {
+    "id": "1",
+    "name": "Astronomy (Count",
+    "description": "2): Mentions celestial objects or phenomena."
+  },
+  {
+    "id": "1",
+    "name": "Software Development (Count",
+    "description": "6): Refers to the process of designing, creating, and testing software applications."
+  },
+  {
+    "id": "1",
+    "name": "User Experience (Count",
+    "description": "1): Mentions the ease of use, intuitiveness, and overall experience of a system or product."
+  },
+  {
+    "id": "1",
+    "name": "Friendship (Count",
+    "description": "3): Refers to the relationships and bonds between friends."
+  },
+  {
+    "id": "1",
+    "name": "Confusion (Count",
+    "description": "9): Mentions a state of uncertainty or puzzlement."
+  },
+  {
+    "id": "1",
+    "name": "Assessment (Count",
+    "description": "2): Refers to the evaluation or measurement of understanding or knowledge."
+  },
+  {
+    "id": "1",
+    "name": "Passion (Count",
+    "description": "5): Refers to strong emotions or enthusiasm towards a particular activity, subject, or cause."
+  },
+  {
+    "id": "1",
+    "name": "Libraries (Count",
+    "description": "5): Mentions collections of resources, including software libraries."
+  },
+  {
+    "id": "1",
+    "name": "Computation (Count",
+    "description": "1): Mentions the use of computational methods and techniques for various applications."
+  },
+  {
+    "id": "1",
+    "name": "Planning (Count",
+    "description": "2): Mentions preparation or arrangements for future events or activities."
+  },
+  {
+    "id": "1",
+    "name": "Best Practices (Count",
+    "description": "1): Refers to the most effective and efficient methods or techniques for accomplishing a task or achieving a goal."
+  },
+  {
+    "id": "1",
+    "name": "Algebra (Count",
+    "description": "13): Mentions mathematical concepts related to algebra."
+  },
+  {
+    "id": "1",
+    "name": "Necessity (Count",
+    "description": "3): Mentions something that is required or obligatory."
+  },
+  {
+    "id": "1",
+    "name": "Gratitude (Count",
+    "description": "10): Expresses appreciation or thanks towards an individual or entity."
+  },
+  {
+    "id": "1",
+    "name": "Explanation (Count",
+    "description": "7): The act of providing detailed descriptions or interpretations of something."
+  },
+  {
+    "id": "1",
+    "name": "Frustration (Count",
+    "description": "3): Mentions feelings of dissatisfaction or annoyance."
+  },
+  {
+    "id": "1",
+    "name": "Data Compression (Count",
+    "description": "3): Refers to the process of reducing the size of data while preserving its content and structure."
+  },
+  {
+    "id": "1",
+    "name": "Dimensionality Reduction (Count",
+    "description": "2): Refers to the process of reducing the number of features or variables in a dataset while preserving the most important information."
+  },
+  {
+    "id": "1",
+    "name": "Data Processing (Count",
+    "description": "1): Refers to the methods and techniques used to extract, transform, and analyze data."
+  },
+  {
+    "id": "1",
+    "name": "Natural Language Processing (Count",
+    "description": "1): Concerned with the interaction between computers and humans in natural language."
+  },
+  {
+    "id": "1",
+    "name": "MATLAB (Count",
+    "description": "38): Mentions the use of MATLAB programming language or software."
+  },
+  {
+    "id": "1",
+    "name": "Readability (Count",
+    "description": "5): Refers to the ease with which written text can be understood by the reader."
+  },
+  {
+    "id": "1",
+    "name": "Perseverance (Count",
+    "description": "1): Refers to the quality of continuing to try hard despite difficulties or challenges."
+  },
+  {
+    "id": "1",
+    "name": "Literacy (Count",
+    "description": "1): Mentions the ability or inability to read or understand written information."
+  },
+  {
+    "id": "1",
+    "name": "Award (Count",
+    "description": "1): Mentions a recognition or honor given for achievement or excellence."
+  },
+  {
+    "id": "1",
+    "name": "Botany (Count",
+    "description": "1): Mentions plant-related topics, including plant parts such as roots."
+  },
+  {
+    "id": "1",
+    "name": "Maintenance (Count",
+    "description": "2): Refers to the act of keeping or putting something in good condition or working order."
+  },
+  {
+    "id": "1",
+    "name": "Geometry (Count",
+    "description": "1): Mentions concepts related to shapes, points, and spatial relationships."
+  },
+  {
+    "id": "1",
+    "name": "Anomaly Detection (Count",
+    "description": "1): Mentions the process of identifying data points, observations, or patterns that do not conform to expected behavior."
+  },
+  {
+    "id": "1",
+    "name": "None (Count",
+    "description": "246): The document does not contain any generalizable topics."
+  },
+  {
+    "id": "1",
+    "name": "Resource (Count",
+    "description": "1): Refers to useful assets, materials, or information."
+  },
+  {
+    "id": "1",
+    "name": "Digital Literacy (Count",
+    "description": "1): Refers to the ability to effectively use digital technologies to access, evaluate, and create information."
+  },
+  {
+    "id": "1",
+    "name": "Stationery (Count",
+    "description": "1): Refers to writing and office supplies, such as paper, notebooks, and pens."
+  },
+  {
+    "id": "1",
+    "name": "Geology (Count",
+    "description": "1): Mentions sediment, which relates to the study of the Earth's physical structure, composition, and processes."
+  },
+  {
+    "id": "1",
+    "name": "Age (Count",
+    "description": "1): Mentions a person's age or the process of aging."
+  },
+  {
+    "id": "1",
+    "name": "History (Count",
+    "description": "1): Mentions past events or periods of time."
+  },
+  {
+    "id": "1",
+    "name": "Awards (Count",
+    "description": "2): Mentions recognition or prizes given for outstanding achievements."
+  },
+  {
+    "id": "1",
+    "name": "Mobile Development (Count",
+    "description": "1): Mentions the creation of software for mobile devices."
+  },
+  {
+    "id": "1",
+    "name": "Pedagogy (Count",
+    "description": "8): Refers to the methods, practices, and philosophies of teaching and learning."
+  },
+  {
+    "id": "1",
+    "name": "Vectorization (Count",
+    "description": "2): Mentions the process of converting data into vectors for computational purposes, often in the context of machine learning or computer graphics."
+  },
+  {
+    "id": "1",
+    "name": "Debt (Count",
+    "description": "1): Mentions the state of owing money or favors to someone."
+  },
+  {
+    "id": "1",
+    "name": "Entrepreneurship (Count",
+    "description": "1): Mentions the creation and management of new businesses or startups."
+  },
+  {
+    "id": "1",
+    "name": "Respect (Count",
+    "description": "2): Mentions the act of showing consideration or esteem for someone or something."
+  },
+  {
+    "id": "1",
+    "name": "Licensing (Count",
+    "description": "1): Mentions the legal and business aspects of using software."
+  },
+  {
+    "id": "1",
+    "name": "Parallel Computing (Count",
+    "description": "1): Mentions the parallelization of treatments, which is a technique used to speed up computational tasks."
+  },
+  {
+    "id": "1",
+    "name": "Dance (Count",
+    "description": "1): Refers to the performance or style of movement, often accompanied by music."
+  },
+  {
+    "id": "1",
+    "name": "Desire (Count",
+    "description": "2): Relates to a strong feeling of wanting something."
+  },
+  {
+    "id": "1",
+    "name": "Data Preparation (Count",
+    "description": "1): Refers to the process of collecting, cleaning, and organizing data for analysis or other purposes."
+  },
+  {
+    "id": "1",
+    "name": "Intelligence (Count",
+    "description": "2): Mentions characteristics related to mental abilities and thought processes."
+  },
+  {
+    "id": "1",
+    "name": "Reading (Count",
+    "description": "2): Refers to the act of interpreting and understanding written text."
+  },
+  {
+    "id": "1",
+    "name": "Reinforcement Learning (Count",
+    "description": "1): A subfield of machine learning that focuses on training models to make decisions based on rewards or penalties."
+  },
+  {
+    "id": "1",
+    "name": "Practical Experience (Count",
+    "description": "1): Mentions hands-on experience or direct participation in real-world applications or activities."
+  },
+  {
+    "id": "1",
+    "name": "Study Groups (Count",
+    "description": "1): Refers to groups of people coming together to learn and collaborate on academic or educational topics."
+  },
+  {
+    "id": "1",
+    "name": "Mentoring (Count",
+    "description": "3): Mentions guidance provided by experienced individuals."
+  },
+  {
+    "id": "1",
+    "name": "Discussion (Count",
+    "description": "2): Refers to the exchange of ideas, opinions, and perspectives on a particular topic or issue."
+  },
+  {
+    "id": "1",
+    "name": "Visualization (Count",
+    "description": "3): Refers to the representation of data or information in a graphical or pictorial format."
+  },
+  {
+    "id": "1",
+    "name": "Electronics (Count",
+    "description": "1): Mentions the study or application of the flow of electrons in various devices and systems."
+  },
+  {
+    "id": "1",
+    "name": "Gambling (Count",
+    "description": "1): Mentions the act of betting or wagering on an outcome."
+  },
+  {
+    "id": "1",
+    "name": "Error Analysis (Count",
+    "description": "2): Examines the process of identifying and quantifying errors in various fields, such as mathematics, statistics, and engineering."
+  },
+  {
+    "id": "1",
+    "name": "Telemetry (Count",
+    "description": "1): Refers to the automatic measurement and transmission of data from remote sources, often using wireless communication systems, to a central location for monitoring, analysis, and recording."
+  },
+  {
+    "id": "1",
+    "name": "Common Sense (Count",
+    "description": "1): Relates to the use of sound judgment and practical experience in everyday situations."
+  },
+  {
+    "id": "1",
+    "name": "Magic (Count",
+    "description": "1): Refers to performances or tricks that create illusions."
+  },
+  {
+    "id": "1",
+    "name": "Application (Count",
+    "description": "2): Refers to the practical use or implementation of techniques, concepts, or theories in real-world situations."
+  },
+  {
+    "id": "1",
+    "name": "Difficulty (Count",
+    "description": "4): Refers to the level of complexity or effort required to accomplish something."
+  },
+  {
+    "id": "1",
+    "name": "Chemistry (Count",
+    "description": "1): Mentions the branch of science concerned with the study of the composition, properties, and reactions of matter."
+  },
+  {
+    "id": "1",
+    "name": "Performance (Count",
+    "description": "2): Refers to the evaluation or measurement of the efficiency, effectiveness, or quality of something."
+  },
+  {
+    "id": "1",
+    "name": "Regression Analysis (Count",
+    "description": "1): Mentions statistical methods to establish a relationship between variables."
+  },
+  {
+    "id": "1",
+    "name": "Addiction (Count",
+    "description": "1): Mentions the state of being dependent on something."
+  },
+  {
+    "id": "1",
+    "name": "Autonomous Systems (Count",
+    "description": "1): Mentions concepts related to self-governing systems and vehicles."
+  },
+  {
+    "id": "1",
+    "name": "Biophysics (Count",
+    "description": "1): Mentions the application of physical principles to the study of biological systems."
+  },
+  {
+    "id": "1",
+    "name": "Request (Count",
+    "description": "1): A call to action or a plea for something to be done about a particular issue or situation."
+  },
+  {
+    "id": "1",
+    "name": "Efficiency (Count",
+    "description": "1): Mentions achieving maximum benefit in the shortest possible time."
+  },
+  {
+    "id": "1",
+    "name": "Data Visualization (Count",
+    "description": "1): Refers to the process of creating graphical representations of data to better understand and communicate information."
+  },
+  {
+    "id": "1",
+    "name": "Interaction (Count",
+    "description": "1): Refers to the process of communicating or engaging with others, often in a dynamic or reciprocal manner."
+  },
+  {
+    "id": "1",
+    "name": "Industry (Count",
+    "description": "2): Mentions the production of goods or services in a specific sector."
+  },
+  {
+    "id": "1",
+    "name": "Critical Thinking (Count",
+    "description": "1): Requires analysis and evaluation of information to form a judgment or decision."
+  },
+  {
+    "id": "1",
+    "name": "Software Design (Count",
+    "description": "1): Mentions the design and shaping of software features."
+  },
+  {
+    "id": "1",
+    "name": "Altruism (Count",
+    "description": "1): Refers to the willingness to help others without expecting anything in return."
+  },
+  {
+    "id": "1",
+    "name": "Utility (Count",
+    "description": "1): Relates to the state of being useful or beneficial."
+  },
+  {
+    "id": "1",
+    "name": "Holidays (Count",
+    "description": "1): Refers to special days or periods of celebration, commemoration, or observance."
+  },
+  {
+    "id": "1",
+    "name": "Goal Setting (Count",
+    "description": "1): Mentions setting objectives or targets to achieve."
+  },
+  {
+    "id": "1",
+    "name": "Biochemistry (Count",
+    "description": "1): The study of the chemical processes and substances that occur within living organisms."
+  }
+]

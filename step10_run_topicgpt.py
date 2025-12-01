@@ -20,7 +20,7 @@ import re
 from collections import Counter
 from pathlib import Path
 
-from generation_1_modified import generate_topic_lvl1
+from topicgpt_python.generation_1_modified import generate_topic_lvl1
 
 
 # ---------- CONFIG ----------

@@ -1,5 +1,5 @@
 import pandas as pd
-from topicgpt_python.utils import *
+from .utils import APIClient, TopicTree
 from tqdm import tqdm
 import regex
 import traceback
@@ -82,7 +82,7 @@ def generate_topics(
     max_tokens,
     top_p,
     verbose,
-    early_stop=100,
+    early_stop=2000,
 ):
     """
     Generate topics from documents using LLMs.
@@ -172,13 +172,13 @@ def generate_topic_lvl1(
     # Normalize api name so 'openrouter' uses the OpenAI-compatible client.
     api_for_client = "openai" if api == "openrouter" else api
     api_client = APIClient(api=api_for_client, model=model)
-
+    # api_client = APIClient(api=api, model=model)
     max_tokens, temperature, top_p = 1000, 0.0, 1.0
 
     if verbose:
         print("-------------------")
         print("Initializing topic generation...")
-        print(f"API: {api} (client backend: {api_for_client})")
+        print(f"API: {api}")
         print(f"Model: {model}")
         print(f"Data file: {data}")
         print(f"Prompt file: {prompt_file}")
@@ -238,14 +238,14 @@ if __name__ == "__main__":
     parser.add_argument(
         "--api",
         type=str,
-        help="API to use ('openai', 'vertex', 'vllm', 'azure', 'gemini', 'openrouter')",
-        default="openrouter",
+        help="API to use ('openai', 'vertex', 'vllm', 'azure', 'gemini', 'bedrock')",
+        default="bedrock",
     )
     parser.add_argument(
         "--model",
         type=str,
         help="Model to use",
-        default="meta-llama/llama-3.1-405b-instruct",
+        default="meta.llama3-1-405b-instruct-v1:0",
     )
     parser.add_argument(
         "--data",
