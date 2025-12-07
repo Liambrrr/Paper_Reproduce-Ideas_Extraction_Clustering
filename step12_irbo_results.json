@@ -5,5 +5,5 @@
   "baseline_10d_top10": 0.9765615983258327,
   "baseline5_avg": 0.966110768552304,
   "baseline10_avg": 0.9732216627570929,
-  "topicgpt_irbo": 1.0
+  "topicgpt_irbo": 0.9621785106682647
 }

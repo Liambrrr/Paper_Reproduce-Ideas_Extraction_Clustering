@@ -106,20 +106,75 @@ def compute_ctfidf_top_words(cluster_docs: Dict[int, List[str]], top_n=10):
 # TopicGPT load
 # -------------------------------------------------------------------
 
-def load_topicgpt_top_words(path, top_n=10):
+def load_topicgpt_top_words(path: str) -> List[List[str]]:
     """
-    Expected format:
-      { "1": ["study", "chemical", ...], "2": [...], ... }
+    Load TopicGPT top words from a JSON file.
+
+    Supports formats, including your current one:
+
+      1) Dict of topic_id -> list of words, e.g.
+         {
+           "1": ["study", "chemical", ...],
+           "2": ["education", "learning", ...]
+         }
+
+      2) {"topics": [{"top_words": [...], ...}, ...]}
+
+      3) [{"top_words": [...], ...}, ...]
+
+      4) [["w1","w2",...], ...]
     """
-    with open(path, "r") as f:
-        js = json.load(f)
+    p = Path(path)
+    if not p.exists():
+        raise FileNotFoundError(f"TopicGPT top-words file not found: {p.resolve()}")
 
-    topics = []
-    for tid in sorted(js.keys(), key=lambda k: int(k) if k.isdigit() else k):
-        words = [w.lower() for w in js[tid]]
-        topics.append(words[:top_n])
-    return topics
+    with open(p, "r") as f:
+        obj = json.load(f)
 
+    topics_words: List[List[str]] = []
+
+    # --- Case 1: dict with numeric keys like "1","2",... -> your case ---
+    if isinstance(obj, dict) and "topics" not in obj:
+        # Heuristic: if all keys are digits and values are lists/strings
+        if all(isinstance(k, str) and k.isdigit() for k in obj.keys()):
+            # sort by numeric topic id for stability
+            for k in sorted(obj.keys(), key=lambda x: int(x)):
+                val = obj[k]
+                if isinstance(val, list):
+                    words = [str(w).strip() for w in val if str(w).strip()]
+                elif isinstance(val, str):
+                    words = [w.strip() for w in val.split() if w.strip()]
+                else:
+                    continue
+                if words:
+                    topics_words.append(words)
+            return topics_words
+
+    # --- Case 2: {"topics": [...]} ---
+    if isinstance(obj, dict) and "topics" in obj:
+        topics_raw = obj["topics"]
+    else:
+        topics_raw = obj
+
+    # --- Case 3/4: list-based formats ---
+    if isinstance(topics_raw, list):
+        for t in topics_raw:
+            if isinstance(t, dict):
+                words = t.get("top_words") or t.get("words") or t.get("terms")
+                if isinstance(words, str):
+                    words = words.split()
+                if not isinstance(words, list):
+                    continue
+                tokens = [str(w).strip() for w in words if str(w).strip()]
+                if tokens:
+                    topics_words.append(tokens)
+            elif isinstance(t, list):
+                tokens = [str(w).strip() for w in t if str(w).strip()]
+                if tokens:
+                    topics_words.append(tokens)
+
+    topics_words = [tw for tw in topics_words if tw]
+    return topics_words
 
 # -------------------------------------------------------------------
 # Step 12 main
@@ -161,11 +216,8 @@ def main():
     baseline10_avg = np.mean([irbo_5d_top10, irbo_10d_top10])
 
     # ========== TOPICGPT ==========
-    topicgpt_words = load_topicgpt_top_words(
-        "data/output/step10_topicgpt/topics_top_words.json",
-        top_n=10,
-    )
-    irbo_topicgpt = calculate_irbo_traditional(topicgpt_words)
+    topicgpt_words = load_topicgpt_top_words( "data/output/step10_topicgpt/topics_top_words.json")
+    irbo_topicgpt = calculate_irbo_traditional(topicgpt_words[0])
 
     # -------- Print results --------
     print("\n=== Step 12 IRBO Results ===")

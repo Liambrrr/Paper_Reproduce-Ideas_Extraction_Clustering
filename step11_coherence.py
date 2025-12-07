@@ -102,7 +102,35 @@ def load_phrase_corpus(path: str):
     dictionary = Dictionary(texts)
     return df, texts, dictionary
 
+def load_topicgpt_jsonl_corpus(path: str) -> List[List[str]]:
+    """
+    Load TopicGPT jsonl corpus.
 
+    Expected format:
+        {"id": "...", "text": "some phrase", "label": ...}
+
+    Returns:
+        texts_tokenized: list of token lists, e.g.
+            [["good"],
+             ["perfect", "overview", "machine", "learning", "methods"],
+             ...]
+    """
+    import json
+
+    docs = []
+    path = Path(path)
+
+    if not path.exists():
+        raise FileNotFoundError(f"TopicGPT corpus not found: {path.resolve()}")
+
+    with open(path, "r", encoding="utf-8") as f:
+        for line in f:
+            obj = json.loads(line)
+            text = obj.get("text", "")
+            tokens = text.lower().strip().split()
+            docs.append(tokens)
+
+    return docs
 # -------------------- baseline topics via c-TF-IDF-style TF-IDF --------------------
 
 def build_baseline_topics_from_labels(
@@ -291,7 +319,6 @@ def compute_cv_for_topics(
     avg_c_v = float(np.mean(per_topic)) if per_topic else float("nan")
     return per_topic, avg_c_v
 
-
 # -------------------- main --------------------
 
 def main():
@@ -317,7 +344,7 @@ def main():
     parser.add_argument(
         "--topicgpt_top_words",
         type=str,
-        default="data/output/step10_topicgpt/topics_lvl1.json",
+        default="data/output/step10_topicgpt/topics_top_words.json",
         help="TopicGPT top-words JSON file.",
     )
     parser.add_argument(
@@ -425,8 +452,10 @@ def main():
     # ---------------- TopicGPT: single setting --------------------
     try:
         topicgpt_topics = load_topicgpt_top_words(args.topicgpt_top_words)
+        topicgpt_texts = load_topicgpt_jsonl_corpus("data/input/phrase_corpus.jsonl")
+        topicgpt_dictionary = Dictionary(topicgpt_texts)
         _, topicgpt_avg = compute_cv_for_topics(
-            topicgpt_topics, texts, dictionary
+            topicgpt_topics, topicgpt_texts, topicgpt_dictionary
         )
         results.append(
             {
