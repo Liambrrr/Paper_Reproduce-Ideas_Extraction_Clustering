@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 Step 11 - Compute topic coherence (C_v)
 
@@ -268,6 +267,7 @@ def load_topicgpt_top_words(path: str) -> List[List[str]]:
 
     topics_words = [tw for tw in topics_words if tw]
     return topics_words
+
 # -------------------- coherence computation --------------------
 
 def compute_cv_for_topics(

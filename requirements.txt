@@ -7,6 +7,12 @@ nltk>=3.8.1
 sentence-transformers>=2.2.2
 torch>=2.0.0
 spacy>=3.7.0
+tiktoken>=0.5.0
+regex>=2023.0.0
+tqdm>=4.65.0
+
+# Topic Modeling + Coherence
+gensim>=4.3.0
 
 # Topic Modeling / Dimensionality Reduction
 umap-learn>=0.5.3
@@ -14,3 +20,13 @@ hdbscan>=0.8.33
 
 # Machine learning utils
 scikit-learn>=1.3.0
+
+# Tree structures
+anytree>=2.8.0
+
+# AWS + Cloud
+boto3>=1.28.0
+botocore>=1.31.0
+
+# OpenAI + Azure OpenAI
+openai>=1.3.0
