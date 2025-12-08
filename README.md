@@ -129,8 +129,8 @@ Step 11 computes baseline-10D top 10 words with the 9th being filtered out since
 | baseline_5D_top5    | baseline  | 5  | 0.5405   |
 | baseline_5D_top10   | baseline  | 10 | 0.4689   |
 | baseline_10D_top5   | baseline  | 5  | 0.5444   |
-| baseline_10D_top10  | baseline  | 10 | 0.4731   |
-| topicgpt            | topicgpt  | 1  | 0.4684   |
+| baseline_10D_top10  | baseline  | 9  | 0.4731   |
+| topicgpt            | topicgpt  | 9  | 0.4684   |
 
 #### IRBO
 | key                 | value   |
