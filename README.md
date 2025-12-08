@@ -104,6 +104,8 @@ Finally, compare C_v and IRBO across the four conditions to see whether TopicGPT
 Step 3 introduces limitation on the minimal number of tokens, otherwise output by step4-6 is not comprehensible.
 
 Step 10 terminates with 18059/22974 phrases processed due to budget limits. Therefore LLM part work is based on 79% processed phrases.
+
+Step 11 computes baseline-10D top 10 words with the 9th being filtered out since 9th is in Chinese and cannot be handled with alphabetic tokenizer.
 ## Results
 
 ### Non-LLM part(table replication):
@@ -128,7 +130,7 @@ Step 10 terminates with 18059/22974 phrases processed due to budget limits. Ther
 | baseline_5D_top10   | baseline  | 10 | 0.4689   |
 | baseline_10D_top5   | baseline  | 5  | 0.5444   |
 | baseline_10D_top10  | baseline  | 10 | 0.4731   |
-| topicgpt            | topicgpt  | 1  | 0.2585   |
+| topicgpt            | topicgpt  | 1  | 0.4684   |
 
 #### IRBO
 | key                 | value   |

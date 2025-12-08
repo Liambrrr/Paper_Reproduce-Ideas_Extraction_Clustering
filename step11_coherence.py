@@ -326,7 +326,7 @@ def main():
     parser.add_argument(
         "--semantic_units",
         type=str,
-        default="step3_mintoken_semantic_units.csv",
+        default="step3_mintoken_semantic_units/step3_mintoken_semantic_units.csv",
         help="CSV from Step 3 with column 'SemanticUnit'.",
     )
     parser.add_argument(
@@ -455,13 +455,13 @@ def main():
         topicgpt_texts = load_topicgpt_jsonl_corpus("data/input/phrase_corpus.jsonl")
         topicgpt_dictionary = Dictionary(topicgpt_texts)
         _, topicgpt_avg = compute_cv_for_topics(
-            topicgpt_topics, topicgpt_texts, topicgpt_dictionary
+            topicgpt_topics[0], topicgpt_texts, topicgpt_dictionary
         )
         results.append(
             {
                 "setting": "topicgpt",
                 "source": "topicgpt",
-                "k": len(topicgpt_topics),
+                "k": len(topicgpt_topics[0]),
                 "avg_c_v": topicgpt_avg,
             }
         )

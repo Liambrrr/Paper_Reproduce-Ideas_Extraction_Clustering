@@ -2,5 +2,5 @@ setting,source,k,avg_c_v
 baseline_5D_top5,baseline,5,0.5405376774977313
 baseline_5D_top10,baseline,10,0.46885215613862946
 baseline_10D_top5,baseline,5,0.544381317155582
-baseline_10D_top10,baseline,10,0.47306601712381746
-topicgpt,topicgpt,1,0.2584603440987892
+baseline_10D_top10,baseline,9,0.47306601712381746
+topicgpt,topicgpt,9,0.4684117010790812
