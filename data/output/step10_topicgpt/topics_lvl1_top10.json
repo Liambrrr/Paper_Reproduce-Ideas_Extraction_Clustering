@@ -1,0 +1,42 @@
+[
+  {
+    "topic": "Education",
+    "count": 8685
+  },
+  {
+    "topic": "Machine Learning",
+    "count": 2795
+  },
+  {
+    "topic": "Programming",
+    "count": 667
+  },
+  {
+    "topic": "Mathematics",
+    "count": 542
+  },
+  {
+    "topic": "Data Science",
+    "count": 359
+  },
+  {
+    "topic": "Appreciation",
+    "count": 343
+  },
+  {
+    "topic": "Artificial Intelligence",
+    "count": 332
+  },
+  {
+    "topic": "Algorithms",
+    "count": 282
+  },
+  {
+    "topic": "None",
+    "count": 246
+  },
+  {
+    "topic": "Language",
+    "count": 233
+  }
+]

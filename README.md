@@ -1,9 +1,13 @@
 # Paper_Reproduce-Ideas_Extraction_Clustering
 
 ## Overview
-- Non-LLM part(step2-8): Replication of paper *Fine-grained Main Ideas Extraction and Clustering of Online Course Reviews*.
+Non-LLM part(step2-8): Replication of paper *Fine-grained Main Ideas Extraction and Clustering of Online Course Reviews*.
 
-- LLM part(step9-12): adopted TopicGPT from paper *TopicGPT: A Prompt-based Topic Modeling Framework*.
+LLM part(step9-12): adopted TopicGPT from paper *TopicGPT: A Prompt-based Topic Modeling Framework*.
+
+This repository reproduces the main experimental pipeline of *Fine-grained Main Ideas Extraction and Clustering of Online Course Reviews* for extracting and evaluating latent discussion themes from MOOC review data. We first implement a phrase-level baseline consisting of text preprocessing, sentence segmentation, sentence-transformer embeddings, UMAP dimensionality reduction, and HDBSCAN clustering. Representative phrases for the largest clusters are identified via weighted centroid similarity, yielding interpretable aspect-level summaries. In parallel, we apply **TopicGPT**, an LLM-based topic generation method, to the same phrase corpus to produce human-readable topic descriptions and top-word lists.
+
+To enable a fair comparison, both the baseline clusters and TopicGPT topics are evaluated using the same quantitative metrics: **topic coherence (C_v)**, which measures how well the top words of each topic co-occur in the underlying corpus, and **IRBO**, which measures topic diversity by penalizing redundancy across topics. 
 
 ## Quick Start
 ### Environment Setup
@@ -33,74 +37,8 @@ python step10_run_topicgpt.py
 python step11_coherence.py
 python step12_irbo.py
 ```
-## Implementation
 
-### Step Instruction
-Step 2 - Data preprocessing
-
-Filter according to CourseId: Include either “machine”, or both “data” and “science” in the course names (did not select “machine-design1” course). Course names should be: “big-data-machine-learning, build-data-science-team, data-science-course, data-science-project, datasciencemathskills, executive-data-science-capstone, genomic-data-science-project, intro-data-science-programacion-estadistica-r, machine-learning, machine-learning-data-analysis, practical-machine-learning, real-life-data-science”. Total 12 courses, 9980 unique comments with 246,290 tokens.
-
-Step 3 - Phase-level segmentation
-
-Split each review comment into fine-grained “long phrases or short sentences” instead of using whole documents. First, segment text into short sentences using standard delimiters (e.g., ., ?, !). 
-Then, further split these sentences on stopwords to obtain long phrases, but customize the stopword list so that important opinion/negation words such as “don’t”, “not”, and “shouldn’t” are kept (i.e., removed from the stopword list). Use all resulting long phrases/short sentences as the basic semantic units for the rest of the pipeline.
-
-Step 4 - Sentence embedding with Sentence-Transformers
-
-Encode each phrase with two Sentence-Transformers models: all-mpnet-base-v2 and all-MiniLM-L6-v2. Run the full pipeline separately for each model. For each phrase, obtain its embedding vector using the default settings of the Sentence-Transformers library. Store the resulting embedding matrices (one per model) for later dimensionality reduction and clustering.
-
-Step 5 - Dimensionality reduction with UMAP
-
-For each embedding set (per model), apply UMAP to reduce the embedding dimensionality before clustering. Use cosine distance as the metric and keep other UMAP hyperparameters at their default values unless otherwise required. Generate reduced embeddings for the following target dimensions, matching Figure 2 in the paper: 2, 3, 5, 10, 20, 50, and 200; also keep the original (no reduction) case with 768 dimensions as a baseline.
-
-Step 6 - Clustering with HDBSCAN
-
-The paper mainly discusses all-mpnet-base-v2, so use that embedding model.
-Focus only on the 5-dimensional and 10-dimensional UMAP outputs.
-For each of those, use HDBSCAN with default parameters. Fit it on 5D UMAP embeddings, then on the 10D UMAP embeddings.
-We’ll use cluster labels and outlier scores
-For both 5D and 10D, retain only the top 10 largest clusters to replicate Table 1.
-
-Step 7 - Compute weighted centroids and representative phrases
-
-For each of the top-10 clusters in the 5D and 10D settings, compute a single “key idea” phrase using NumPy and scikit-learn. Put the phrase embeddings for that cluster into a NumPy array, and the corresponding HDBSCAN outlier scores into another array. 
-Set the weighting parameter α = 1, and for each phrase create a weight equal to 1 minus its outlier score (clip negative values to 0). Use NumPy to compute a weighted average of the embeddings with these weights to obtain one centroid embedding for the cluster. 
-Then use cosine_similarity from sklearn.metrics.pairwise to measure the cosine similarity between this centroid and every phrase embedding in the cluster, and select the phrase with the highest similarity as the representative “key idea” phrase for that cluster.
-
-Step 8 - Replicate Table 1 (summary of main aspects)
-
-Using the top-10 clusters and their representative phrases (for both 5D and 10D), inspect each representative phrase and a few additional phrases in the same cluster to understand what students are talking about. 
-Based on this reading, manually assign a short aspect label to each cluster (e.g., math background, course structure) and record whether that aspect appears in the 5D run, the 10D run, or both. 
-Finally, create a table similar to Table 1 in the paper that lists these aspect labels, an example representative phrase for each, and the corresponding dimensionality (5D, 10D, or both), showing that your replication recovers the main themes reported by the authors.
-
-Step 9 - TopicGPT preparation
-
-Use this repository (they also have a Python library): https://github.com/chtmp223/topicGPT
-For more information with their paper, if needed: https://aclanthology.org/2024.naacl-long.164.pdf
-Use the same phrase-level units as in the baseline pipeline (output of Step 3). Each phrase should be a short sentence or long phrase after preprocessing (lowercasing, cleaned text, customized stopwords). Create a single text file or list where each line (or entry) is one phrase. This will be the input corpus for TopicGPT so that comparisons with the baseline are fair.
-If that doesn’t work, you can also try with a full review directly for more context. 
-Use the Llama-3.1-405B model for this task.
-
-Step 10 - Run TopicGPT
-
-Use a TopicGPT implementation and feed it the phrase corpus from Step 9. 
-Run TopicGPT with Llama-3.1-405B and keep other TopicGPT parameters at their default values.
-During the run, save: (a) the topic labels/descriptions produced by TopicGPT, (b) the list of top words (e.g., top 10 words) for each topic, and (c) the assignment of phrases to topics (if provided).
-
-Step 11 - Compute coherence (C_v)
-
-Compute topic coherence (C_v) for both the baseline clusters and the TopicGPT topics, so that they are evaluated under the same metric. Use a standard topic coherence implementation (for example, Gensim’s CoherenceModel with coherence='c_v'). 
-For each model and setting:
-Baseline: for 5D and 10D, take the top 5 and top 10 largest clusters and extract their top words (e.g., using c-TF-IDF over phrases in each cluster).
-TopicGPT: use the top words that TopicGPT outputs.Compute C_v and then report the average C_v per setting (baseline-5, baseline-10, TopicGPT).
-
-Step 12 - Compute IRBO and compare with baseline
-
-Using the same top-word lists, compute IRBO (topic redundancy/diversity) for both the baseline clusters and the TopicGPT topics. Use the same IRBO implementation we used in the MOOC urgent-posts replication (or an equivalent implementation) and keep its parameters at their default values. 
-For each setting (baseline-5, baseline-10, TopicGPT), feed the top words for all topics/clusters into the IRBO function and record the resulting IRBO score. 
-Finally, compare C_v and IRBO across the four conditions to see whether TopicGPT produces more coherent and less redundant topics than the original phrase-level clustering baseline.
-
-### Notice
+## Notice
 Step 3 introduces limitation on the minimal number of tokens, otherwise output by step4-6 is not comprehensible.
 
 Step 10 terminates with 18059/22974 phrases processed due to budget limits. Therefore LLM part work is based on 79% processed phrases.
@@ -123,6 +61,20 @@ Step 11 computes baseline-10D top 10 words with the 9th being filtered out since
 | 10 | one best courses coursera | **best course in coursera** | taught not sufficient quizzes | quiz questions |
 
 ### LLM part:
+#### Top-10 topics by TopicGPT
+| Topic                     | Count |
+|---------------------------|-------|
+| Education                 | 8685  |
+| Machine Learning          | 2795  |
+| Programming               | 667   |
+| Mathematics               | 542   |
+| Data Science              | 359   |
+| Appreciation              | 343   |
+| Artificial Intelligence   | 332   |
+| Algorithms                | 282   |
+| None                      | 246   |
+| Language                  | 233   |
+
 #### Coherence
 | setting             | source    | k  | avg_c_v  |
 |---------------------|-----------|----|----------|
